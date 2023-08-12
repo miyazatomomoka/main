@@ -3,7 +3,6 @@ package curriculum_A;
 public class Qes1_13 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
         //１　下記9個をローカル変数として宣言のみしてください			
 		//・バイト型・短整数型・整数型・長整数型			
 		//・単精度浮動小数点数型・倍精度浮動小数点数型			
