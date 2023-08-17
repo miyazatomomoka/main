@@ -22,9 +22,9 @@ public class Qes1_13 {
 		byte1 = 0 ;
 		short1 = 0 ;
 		int1 = 0 ;
-		long1 = 0 ;
-		float1 = 0 ;
-		doble1 = 0 ;
+		long1 = 0L ;
+		float1 = 0F ;
+		doble1 = 0D ;
 		char1 = '\u0000' ;
 		string1 = null ;
 		boolean1 = false ;
@@ -33,9 +33,9 @@ public class Qes1_13 {
 		byte1 = 10 ;
 		short1 = 100 ;
 		int1 = 1000 ;
-		long1 = 10000 ;
-		float1 = 9.5f ;
-		doble1 = 10.5 ;
+		long1 = 10000L ;
+		float1 = 9.5F ;
+		doble1 = 10.5D ;
 		char1 = 'a' ;
 		string1 = "ハロー" ;
 		boolean1 = true ;
@@ -49,11 +49,10 @@ public class Qes1_13 {
 		System.out.println( char1 + string1 + boolean1 );
 		System.out.println( byte1 + byte1 + byte1 + short1 + int1 + long1 );
 		System.out.println( byte1 * short1 * int1 * long1 );
-		System.out.println( doble1 / 100 );
+		System.out.println( doble1 / short1 );
 		System.out.println( byte1 - short1 );
 		
 		//５　「ハローJAVA43」
-
 		
 		//整数になってるのを文字列とする
 		int num = 20 ;
